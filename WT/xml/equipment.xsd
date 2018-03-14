@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema  xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="EquipmentInfo">
+        <xs:complexType>
+            <xs:sequence>
+				<xs:element name="equipmentname" type="xs:string"></xs:element>
+				<xs:element name="type" type="xs:string"/>
+				<xs:element name="modelname" type="xs:string"/>
+				<xs:element name="serialnumber" type="xs:string"/>
+				<xs:element name="description" type="xs:string"/>
+				<xs:element name="availability" type="xs:decimal"/>
+				<xs:element name="condition" type="xs:string"/>
+				<xs:element name="contactinfo">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="name" type="xs:string"/>
+							<xs:element name="address" type="xs:string"/>
+							<xs:element name="phone" type="xs:string"/>
+							<xs:element name="email" type="xs:string"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>   
+            </xs:sequence>
+        </xs:complexType>   
+    </xs:element>
+	
+</xs:schema>

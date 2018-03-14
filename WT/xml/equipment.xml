@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EquipmentInfo>
+<equipmentname>projector</equipmentname>
+  <type>3</type>
+  <modelname>sony</modelname>
+  <serialnumber>5</serialnumber>
+  <description>screen</description>
+  <availability>2</availability>
+  <condition>it should be worked</condition>
+  <contactinfo>
+   <name>gayatri</name>
+   <address>gudivada</address>
+   <phone>7661995675</phone>
+   <email>gayatri@gmail.com</email>
+   </contactinfo>
+   </EquipmentInfo>
+   

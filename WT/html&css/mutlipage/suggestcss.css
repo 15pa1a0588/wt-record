@@ -1,0 +1,38 @@
+html,body,header,footer,hgroup,nav,article,section,figure,figcaption,h1,h2,h3,ul,li,body,div,p,img{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    border: 0;
+
+}
+body{
+    background:gray;
+}
+header{
+    color:white;
+    background-color: brown;
+    padding:10px;
+}
+h1{
+    font-size:40px;
+    font:bold;
+}
+h2{
+    font-size:20px;
+    color:green;
+    margin-left:15px;
+}
+section{
+     background-color: white;
+    color:black;
+    margin-left:200px;
+    margin-right:200px;
+    margin-top:10px;
+    margin-bottom: 200px;
+
+}
+form{
+    text-align: left;
+    padding-left:400px;
+}

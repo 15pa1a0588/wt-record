@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+ 
+</head>
+  <body>
+    <h1>Prime Number</h1>
+    
+  Enter Number: <input onkeyup="myPar()" type="text" id="num"  ><br>
+  <!-- <input onclick="myPar()" type="button" value="Submit"> -->
+
+   
+   <p id="prime"></p>
+   
+    <script>
+      function myPar()
+      {
+        var x,i;
+        x=document.getElementById("num").value;
+        if(x==1){
+          document.getElementById("prime").innerHTML="invalid";
+        }
+        else{
+          
+          for(i=2;i<x;i++)
+          {
+            if(x%i==0)  { break; }
+          }
+          if(i<x){
+           document.getElementById("prime").innerHTML="Not Prime";
+          }
+          else
+          {
+          document.getElementById("prime").innerHTML="Prime";
+          }
+        }
+      }
+    </script>
+    
+  </body>
+</html>

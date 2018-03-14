@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <body>
+  <h1>Simple Interest</h1>
+        
+  Enter P: <input type="text" id="p"  ><br><br>
+      
+  Enter T: <input type="text" id="t"  ><br><br>
+      
+  Enter R: <input type="text" id="r"  ><br><br>
+  <input onclick="per()" type="button" value="submit">
+  
+  <p id="res"></p>
+  
+  <script>
+    function per(){
+    var p,t,r,re;
+    p=document.getElementById("p").value;
+    
+    t=document.getElementById("t").value;
+    
+    r=document.getElementById("r").value;
+    
+    re=(p*t*r)/100;
+    
+    
+    document.getElementById("res").innerHTML="Result = " +re ;
+  }
+  </script>
+  
+  </body>
+</html>
